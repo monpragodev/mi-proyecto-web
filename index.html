@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <i class="fa-solid fa-paw"></i>
     <h1>Mi proyecto web</h1>
+    <script>
+        const greeting = document.createElement('p');
+        const hours = new Date().getHours();
+        greeting.textContent = hours < 12 ? '¡Buenos días!' : hours < 18 ? '¡Buenas tardes!' : '¡Buenas noches!';
+        document.body.appendChild(greeting);
+    </script>
     <p>Página de ejemplo para usar Git.</p>
+    <script src="https://kit.fontawesome.com/7529da4d0b.js" crossorigin="anonymous"></script>
 </body>
 </html>
