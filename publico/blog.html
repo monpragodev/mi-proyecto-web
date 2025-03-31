@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrada de Blog</title>
+  <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+
+  <header>
+    <h1>Mi Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Sobre mí</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article class="blog-post">
+      <h2 class="post-title">Título de la Entrada</h2>
+      <p class="post-meta">Publicado el <span id="post-date"></span> por Autor</p>
+      <div class="post-content">
+        <p>Bienvenidos a mi blog. Este es un artículo de ejemplo para mostrar cómo estructurar una entrada de blog usando HTML, CSS y JavaScript.</p>
+        <p>Aquí puedes incluir más contenido, imágenes, videos o cualquier cosa que desees compartir con tus lectores.</p>
+      </div>
+      <div class="comment-section">
+        <h3>Deja un comentario</h3>
+        <textarea id="comment" placeholder="Escribe tu comentario aquí..."></textarea>
+        <button id="submit-comment">Enviar comentario</button>
+        <ul id="comments-list"></ul>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mi Blog. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
